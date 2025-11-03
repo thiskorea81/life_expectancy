@@ -58,7 +58,7 @@ import matplotlib.pyplot as plt
 
 # 복제된 폴더 안의 파일 경로를 지정합니다.
 # (저장소에 있는 실제 파일명으로 수정해야 할 수 있습니다.)
-file_path = '/content/life_expectancy/life_expectancy.csv'
+file_path = '/content/life_expectancy/Life Expectancy Data.csv'
 
 # CSV 파일을 DataFrame으로 읽어옵니다.
 df = pd.read_csv(file_path)
