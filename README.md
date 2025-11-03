@@ -53,6 +53,8 @@ WHO(세계보건기구)의 데이터를 기반으로 여러 보건 및 경제 �
 
 ```python
 import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
 
 # 복제된 폴더 안의 파일 경로를 지정합니다.
 # (저장소에 있는 실제 파일명으로 수정해야 할 수 있습니다.)
