@@ -70,6 +70,15 @@ df.head()
 ### 3\. 데이터전처리(교과서 193페이지부터)
 
 ### 4\. 데이터 시각화 및 분석
+####4.1 기대 수명에 대한 히스토그램 시각화하기
+####4.2 소아마비 예방 접종률에 대한 히스토그램 시각화하기
+####4.3 히트맵으로 속성 간 상관관계 파악하기
+```python
+plt.figure(figsize=(15,12)) #표 사이즈 설정
+sns.heatmap(df.corr(numeric_only=True), linewidth=0.1, vmax=1, cmap=plt.cm.YlOrRd, linecolor='white', annot=True)
+#sns.heatmap(df.corr(numeric_only=Treu), annot=True) #이걸로 해도 상관없음.
+```
+####4.4 산점도로 특정 속성 간 상관관계 파악하
 
 ### 5\. 기계학습 유형과 알고리즘 선정
 
